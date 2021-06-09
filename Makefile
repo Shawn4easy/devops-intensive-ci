@@ -3,3 +3,9 @@ server:
 
 test:
 	npm -s test
+
+lint:
+	npx eslint .
+
+install:
+	npm install
